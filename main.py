@@ -15,6 +15,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import config
 from jarvis_core.logger import get_logger
 from jarvis_core.brain import get_intent_classifier, classify_command
+from jarvis_core.tool_router import get_router
 from jarvis_core.memory import get_memory
 from jarvis_core.voice_input import get_voice_input
 from jarvis_core.voice_output import get_voice_output
