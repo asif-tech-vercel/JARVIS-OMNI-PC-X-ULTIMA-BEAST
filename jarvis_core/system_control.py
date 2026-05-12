@@ -15,11 +15,12 @@ try:
 except ImportError:
     HAS_PSUTIL = False
 
+# Make pycaw optional
 try:
     from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
-    HAS_C.AW = True
+    HAS_CAW = True
 except ImportError:
-    HAS_C.AW = False
+    HAS_CAW = False
 
 try:
     import winreg
