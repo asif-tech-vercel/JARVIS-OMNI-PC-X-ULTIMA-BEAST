@@ -1,0 +1,52 @@
+# JARVIS-OMNI-PC-X-ULTIMA-BEAST Requirements
+
+# Core GUI and automation
+pyautogui>=0.13.0
+keyboard>=0.13.0
+mouse>=0.7.0
+pygetwindow>=0.0.9
+psutil>=5.9.0
+pywin32>=306
+uiautomationcore>=2.0.2
+
+# Screen capture and vision
+mss>=9.0.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+easyocr>=1.7.0
+
+# Voice input/output
+vosk>=0.3.45
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+coqui-tts>=0.2.0
+
+# Browser automation
+playwright>=1.40.0
+selenium>=4.15.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Workflow and scheduling
+watchdog>=3.0.0
+apscheduler>=3.10.0
+schedule>=1.2.0
+
+# Productivity / documents
+python-docx>=1.1.0
+openpyxl>=3.1.0
+reportlab>=4.0.0
+
+# Development tools
+gitpython>=3.1.0
+
+# Logging
+rich>=13.7.0
+
+# JSON/data handling
+orjson>=3.9.0
+
+# Optional: Local LLM support
+ollama>=0.1.0
+llama-cpp-python>=0.2.0
