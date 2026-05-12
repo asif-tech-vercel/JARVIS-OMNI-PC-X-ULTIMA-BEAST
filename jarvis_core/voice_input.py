@@ -40,7 +40,7 @@ class VoiceInput:
         self.model_path = model_path
         self.sample_rate = sample_rate
         self.recognizer = None
-        self microphone = None
+        self.microphone = None
         self.listening = False
         self.wake_word_enabled = False
         self.wake_word = "jarvis"
